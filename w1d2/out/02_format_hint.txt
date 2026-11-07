@@ -1,0 +1,115 @@
+=== Обмен #1  (2026-11-08 00:11:08) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=None  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.
+         
+         Ответь строго тремя строками в формате:
+         Country: <название> | Capital: <столица> | Population: <число>
+         Без преамбулы, без пояснений.»
+
+[RESPONSE]
+  finish_reason: stop
+  usage: prompt=79, completion=58, total=137
+  valid_ok: True
+  content:
+    <<<
+    Country: Япония | Capital: Токио | Population: 13 960 236
+    Country: Россия | Capital: Москва | Population: 13 149 803
+    Country: Франция | Capital: Париж | Population: 2 102 650
+    >>>
+
+
+=== Обмен #2  (2026-11-08 00:11:10) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=None  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.
+         
+         Ответь строго тремя строками в формате:
+         Country: <название> | Capital: <столица> | Population: <число>
+         Без преамбулы, без пояснений.»
+
+[RESPONSE]
+  finish_reason: stop
+  usage: prompt=79, completion=59, total=138
+  valid_ok: True
+  content:
+    <<<
+    Country: Япония | Capital: Токио | Population: 13,960,000
+    Country: Россия | Capital: Москва | Population: 13,150,000
+    Country: Египет | Capital: Каир | Population: 9,540,000
+    >>>
+
+
+=== Обмен #3  (2026-11-08 00:11:11) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=None  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.
+         
+         Ответь строго тремя строками в формате:
+         Country: <название> | Capital: <столица> | Population: <число>
+         Без преамбулы, без пояснений.»
+
+[RESPONSE]
+  finish_reason: stop
+  usage: prompt=79, completion=52, total=131
+  valid_ok: True
+  content:
+    <<<
+    Country: Япония | Capital: Токио | Population: 13960000
+    Country: Россия | Capital: Москва | Population: 13100000
+    Country: Франция | Capital: Париж | Population: 2100000
+    >>>
+
+
+=== Обмен #4  (2026-11-08 00:11:12) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=None  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.
+         
+         Ответь строго тремя строками в формате:
+         Country: <название> | Capital: <столица> | Population: <число>
+         Без преамбулы, без пояснений.»
+
+[RESPONSE]
+  finish_reason: stop
+  usage: prompt=79, completion=52, total=131
+  valid_ok: True
+  content:
+    <<<
+    Country: Япония | Capital: Токио | Population: 13960000
+    Country: Россия | Capital: Москва | Population: 13100000
+    Country: Франция | Capital: Париж | Population: 2100000
+    >>>
+
+
+=== Обмен #5  (2026-11-08 00:11:13) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=None  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.
+         
+         Ответь строго тремя строками в формате:
+         Country: <название> | Capital: <столица> | Population: <число>
+         Без преамбулы, без пояснений.»
+
+[RESPONSE]
+  finish_reason: stop
+  usage: prompt=79, completion=44, total=123
+  valid_ok: True
+  content:
+    <<<
+    Country: Japan | Capital: Tokyo | Population: 13960000
+    Country: Russia | Capital: Moscow | Population: 13100000
+    Country: France | Capital: Paris | Population: 2100000
+    >>>
+
+

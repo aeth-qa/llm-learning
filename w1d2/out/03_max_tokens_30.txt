@@ -1,0 +1,95 @@
+=== Обмен #1  (2026-11-08 00:11:14) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=30  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.»
+
+[RESPONSE]
+  finish_reason: length
+  usage: prompt=33, completion=30, total=63
+  valid_ok: True
+  content:
+    <<<
+    Вот три примера:
+    
+    1. **Япония** — столица **Токио**, население около **14 млн человек**
+    >>>
+
+
+=== Обмен #2  (2026-11-08 00:11:15) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=30  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.»
+
+[RESPONSE]
+  finish_reason: length
+  usage: prompt=33, completion=30, total=63
+  valid_ok: True
+  content:
+    <<<
+    Вот три страны с их столицами и населением столиц (приблизительные данные на 2023–2024 годы):
+    
+    
+    >>>
+
+
+=== Обмен #3  (2026-11-08 00:11:16) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=30  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.»
+
+[RESPONSE]
+  finish_reason: length
+  usage: prompt=33, completion=30, total=63
+  valid_ok: True
+  content:
+    <<<
+    Вот три страны, их столицы и население столиц (приблизительные данные, актуальные на последние годы):
+    
+    
+    >>>
+
+
+=== Обмен #4  (2026-11-08 00:11:17) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=30  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.»
+
+[RESPONSE]
+  finish_reason: length
+  usage: prompt=33, completion=30, total=63
+  valid_ok: True
+  content:
+    <<<
+    Вот три страны, их столицы и население столиц (приблизительные данные):
+    
+    1. **Япония** —
+    >>>
+
+
+=== Обмен #5  (2026-11-08 00:11:18) ===
+[REQUEST]
+  model=deepseek-chat  temperature=1.0  max_tokens=30  stop=None  response_format=None
+  messages:
+    system: «Ты — полезный ассистент.»
+    user: «Назови 3 страны, их столицы и население столиц.»
+
+[RESPONSE]
+  finish_reason: length
+  usage: prompt=33, completion=30, total=63
+  valid_ok: True
+  content:
+    <<<
+    Вот три страны с их столицами и населением столиц (примерные данные по оценкам на 2024 год):
+    
+    1.
+    >>>
+
+

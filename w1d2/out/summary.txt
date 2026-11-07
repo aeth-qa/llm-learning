@@ -1,0 +1,12 @@
+# Сводка (2026-11-08 00:11)
+# model=deepseek-chat, runs=5
+
+variant                runs  valid_ok  finish_reasons         first_fail
+------------------------------------------------------------------------
+01_baseline               5    5/5     stop×5                 
+02_format_hint            5    5/5     stop×5                 
+03_max_tokens_30          5    5/5     length×5               
+04_max_tokens_200         5    5/5     stop×5                 
+05_stop_seq               5    5/5     stop×5                 
+06_json_object            5    5/5     stop×5                 
+07_json_schema            5    5/5     error×5                
