@@ -1,0 +1,14 @@
+СВОДКА (2026-11-08 17:10)
+====================================================================================================
+MODEL                | METHOD             | NUMERIC  | ABSURD  | TIME (s)  | P_TOK   | C_TOK  
+----------------------------------------------------------------------------------------------------
+deepseek-chat | direct                  | 5/5      | 1/1     | 11.29     | 319     | 1078   
+deepseek-chat | cot                     | 5/5      | 1/1     | 16.68     | 367     | 2025   
+deepseek-chat | meta                    | 5/5      | 0/1     | 50.49     | 3492    | 6521   
+deepseek-chat | expert_parallel         | 5/5      | 1/1     | 18.00     | 853     | 2008   
+deepseek-chat | expert_sequential       | 5/5      | 1/1     | 57.25     | 5407    | 6418   
+deepseek-reasoner | direct              | 5/5      | 1/1     | 28.27     | 475     | 3189   
+deepseek-reasoner | cot                 | 5/5      | 1/1     | 31.36     | 523     | 3630   
+deepseek-reasoner | meta                | 5/5      | 1/1     | 69.38     | 2522    | 9281   
+deepseek-reasoner | expert_parallel     | 5/5      | 1/1     | 23.15     | 1003    | 2577   
+deepseek-reasoner | expert_sequential   | 5/5      | 1/1     | 123.22    | 4133    | 14946  
