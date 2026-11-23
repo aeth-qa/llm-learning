@@ -1,0 +1,24 @@
+{
+  "state": "done",
+  "paused": false,
+  "history": [
+    {
+      "from": "planning",
+      "to": "execution",
+      "reason": "План составлен, требуется одобрение пользователя",
+      "at": "2026-11-23T09:14:33"
+    },
+    {
+      "from": "execution",
+      "to": "validation",
+      "reason": "",
+      "at": "2026-11-23T09:15:26"
+    },
+    {
+      "from": "validation",
+      "to": "done",
+      "reason": "",
+      "at": "2026-11-23T09:15:26"
+    }
+  ]
+}
