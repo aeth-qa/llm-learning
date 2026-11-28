@@ -1,0 +1,123 @@
+{
+  "model": "deepseek-chat",
+  "messages": [
+    {
+      "role": "user",
+      "content": "<пример>"
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "calculate",
+        "description": "Вычисляет математическое выражение. Используй для сложения, умножения и т.д.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "expression": {
+              "type": "string",
+              "description": "Строка с выражением, например '2 + 2' или '124 * 45'"
+            }
+          },
+          "required": [
+            "expression"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "mcp_list_tasks",
+        "description": "Вернуть список задач, опционально отфильтрованных по статусу.\n\nArgs:\n    status: \"open\" | \"in_progress\" | \"closed\" | \"all\" (по умолчанию \"all\")\n",
+        "parameters": {
+          "properties": {
+            "status": {
+              "default": "all",
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "type": "object",
+          "title": "list_tasksArguments"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "mcp_get_task",
+        "description": "Вернуть подробности задачи по её ID.\n\nArgs:\n    task_id: идентификатор задачи, например \"TASK-1\"\n",
+        "parameters": {
+          "properties": {
+            "task_id": {
+              "title": "Task Id",
+              "type": "string"
+            }
+          },
+          "required": [
+            "task_id"
+          ],
+          "type": "object",
+          "title": "get_taskArguments"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "mcp_create_task",
+        "description": "Создать новую задачу. Возвращает созданную задачу с присвоенным ID.\n\nArgs:\n    title: краткое название задачи\n    assignee: на кого назначена (по умолчанию \"unassigned\")\n    priority: \"low\" | \"medium\" | \"high\" (по умолчанию \"medium\")\n",
+        "parameters": {
+          "properties": {
+            "title": {
+              "title": "Title",
+              "type": "string"
+            },
+            "assignee": {
+              "default": "unassigned",
+              "title": "Assignee",
+              "type": "string"
+            },
+            "priority": {
+              "default": "medium",
+              "title": "Priority",
+              "type": "string"
+            }
+          },
+          "required": [
+            "title"
+          ],
+          "type": "object",
+          "title": "create_taskArguments"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "mcp_update_task_status",
+        "description": "Изменить статус задачи.\n\nArgs:\n    task_id: идентификатор задачи, например \"TASK-1\"\n    status: \"open\" | \"in_progress\" | \"closed\"\n",
+        "parameters": {
+          "properties": {
+            "task_id": {
+              "title": "Task Id",
+              "type": "string"
+            },
+            "status": {
+              "title": "Status",
+              "type": "string"
+            }
+          },
+          "required": [
+            "task_id",
+            "status"
+          ],
+          "type": "object",
+          "title": "update_task_statusArguments"
+        }
+      }
+    }
+  ]
+}
